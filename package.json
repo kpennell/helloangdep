@@ -1,26 +1,22 @@
 {
-  "name": "angdep2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "hello-angular-1",
+  "version": "0.0.4",
+  "description": "Angular 1.x Hello World",
   "scripts": {
-    "start": "node node_modules/http-server/bin/http-server -o",
+    "start": "node server.js",
     "prestart": "npm install"
   },
-  "dependencies": {
-    "express": "^4.12.4",
-    "angularfire": "^0.9.2",
-    "firebase": "^2.1.2",
-    "http-server": "^0.6.1",
-    "node": "^0.0.0",
-    "require-directory": "^2.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevelopIntelligenceBoulder/hello-angular-1.git"
   },
+  "author": "Kamren Zorgdrager <kamrenz@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/DevelopIntelligenceBoulder/hello-angular-1",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-sourcemaps": "^1.5.2",
-    "gulp-util": "^3.0.6"
+    "express": "^4.12.4"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "angular": "^1.4.0"
+  }
 }
